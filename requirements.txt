@@ -1,0 +1,50 @@
+# =========================
+# Core Framework
+# =========================
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+# =========================
+# Database
+# =========================
+sqlalchemy==2.0.29
+psycopg2-binary==2.9.9
+alembic==1.13.1
+pgvector==0.2.4
+
+# =========================
+# Authentication
+# =========================
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# =========================
+# Face Recognition
+# =========================
+insightface==0.7.3
+onnxruntime==1.17.3
+opencv-python==4.9.0.80
+numpy==1.26.4
+
+# =========================
+# Image Handling
+# =========================
+pillow==10.2.0
+
+# =========================
+# Validation & Utils
+# =========================
+pydantic==2.6.4
+python-multipart==0.0.9
+python-dotenv==1.0.1
+
+# =========================
+# Logging & Monitoring
+# =========================
+loguru==0.7.2
+
+# =========================
+# Optional (Development)
+# =========================
+pytest==8.1.1
+httpx==0.27.0
